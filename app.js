@@ -3,8 +3,8 @@ const app = express();
 const authRoutes = require('./routes/authRoutes');
 const errorHandler = require('./middlewares/errorHandler');
 const productRoutes = require('./routes/productRoutes');
-const userEmitter = require('./events/userEvents');
-const productEmitter = require('./events/productEvents');
+const userEmitter = require('./events/usersEvents');
+const productEmitter = require('./events/productsEvents');
 const fileRoutes = require('./routes/fileRoutes'); 
 
 app.use(express.json());

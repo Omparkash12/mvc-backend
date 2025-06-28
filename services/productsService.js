@@ -29,8 +29,8 @@
 
 
 
-const Product = require('../models/Product');
-const productEmitter = require('../events/productEvents');
+const Product = require('../models/products');
+const productEmitter = require('../events/productsEvents');
 
 exports.fetchAndSaveProducts = async () => {
   try {

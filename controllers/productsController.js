@@ -1,5 +1,5 @@
-const productService = require('../services/productService');
-const Product = require('../models/Product');
+const productService = require('../services/productsService');
+const Product = require('../models/products');
 
 exports.syncProducts = async (req, res, next) => {
     try {

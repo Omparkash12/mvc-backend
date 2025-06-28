@@ -1,5 +1,5 @@
 const authService = require('../services/authService');
-const userEmitter = require('../events/userEvents');
+const userEmitter = require('../events/usersEvents');
 
 exports.signup = async (req, res, next) => {
     try {
